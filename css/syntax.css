@@ -1,0 +1,27 @@
+/* Minimal Pandoc Pygments syntax highlighting */
+.sourceCode {
+  background: #f8f8f8;
+  border-radius: 4px;
+  padding: 1.5em 1em;
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+.sourceCode pre {
+  margin: 0;
+  background: none;
+  border: none;
+  padding: 0;
+}
+.sourceCode .kw { color: #007020; font-weight: bold; } /* Keyword */
+.sourceCode .dt { color: #902000; } /* DataType */
+.sourceCode .dv { color: #40a070; } /* DecVal */
+.sourceCode .bn { color: #40a070; } /* BaseN */
+.sourceCode .fl { color: #40a070; } /* Float */
+.sourceCode .ch { color: #4070a0; } /* Char */
+.sourceCode .st { color: #4070a0; } /* String */
+.sourceCode .co { color: #60a0b0; font-style: italic; } /* Comment */
+.sourceCode .ot { color: #007020; } /* Other */
+.sourceCode .al { color: #ff0000; font-weight: bold; } /* Alert */
+.sourceCode .fu { color: #06287e; } /* Function */
+.sourceCode .re { } /* RegionMarker */
+.sourceCode .er { color: #ff0000; font-weight: bold; } /* Error */
