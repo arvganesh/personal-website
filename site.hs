@@ -3,11 +3,17 @@
 import           Data.Monoid (mappend)
 import           Hakyll
 import           Text.Pandoc.Options (WriterOptions(..), def)
+import Skylighting.Styles (pygments)
 
 
 --------------------------------------------------------------------------------
+config :: Configuration
+config = defaultConfiguration
+  { destinationDirectory = "docs"
+  }
+
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith config $ do
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
